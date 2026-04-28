@@ -26,7 +26,7 @@ This is a preview website built by Pejji for **Dang Detail Cleaning Services**. 
 
 ## Things to discuss
 
-1. **Country / market**: this demo defaults to Nigerian market (₦, NDPA compliance, +234 phone). If you serve another country or both, tell us and we'll adjust pricing display, privacy policy, and contact details.
+1. **Service area**: demo currently uses a placeholder Calgary-area phone number (+1 403 555 0123). Replace with your real Canadian number when ready. Privacy policy is PIPEDA-compliant by default.
 
 2. **Service area**: do you serve specific cities only? We can add a service-area map or list.
 
@@ -46,7 +46,7 @@ This is a preview website built by Pejji for **Dang Detail Cleaning Services**. 
 
 ## Pricing
 
-This vision demo is free. If you'd like Pejji to build the production version (with your domain, your phone number, real photos, optional online booking), pricing starts at ₦150,000 for the Starter package.
+This vision demo is free. If you'd like Pejji to build the production version (with your domain, your phone number, real photos, optional online booking), Canadian pricing starts at CAD $750 for the Starter package.
 
 Reply to whoever shared this demo with you to discuss next steps.
 
