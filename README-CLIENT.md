@@ -1,6 +1,6 @@
-# DDCS Cleaning - Vision Demo
+# Deng Details Cleaning Services - Vision Demo
 
-This is a preview website built by Pejji for **Dang Detail Cleaning Services**. It's a vision demo showing how your business could be presented online. Take a look, let us know what you'd like to change, and we'll iterate based on your feedback.
+This is a preview website built by Pejji for **Deng Details Cleaning Services**. It's a vision demo showing how your business could be presented online. Take a look, let us know what you'd like to change, and we'll iterate based on your feedback.
 
 ## What's in here
 
