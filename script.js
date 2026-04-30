@@ -1,4 +1,4 @@
-// DDCS Cleaning - Demo Interactions
+// Deng Details Cleaning Services - Demo Interactions
 
 (function() {
     'use strict';
@@ -26,7 +26,7 @@
     // Cookie consent
     const consent = document.getElementById('cookie-consent');
     const accept = document.getElementById('cookie-accept');
-    const STORAGE_KEY = 'ddcs-cookie-consent-v1';
+    const STORAGE_KEY = 'deng-details-cookie-consent-v1';
 
     if (consent && !localStorage.getItem(STORAGE_KEY)) {
         // Delay slightly so page paints first
