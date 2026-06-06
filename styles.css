@@ -7,10 +7,12 @@
     --ink: #0E2A35;
     --ink-soft: #4A6B75;
     --ink-mute: #8FA4AB;
-    --teal: #1E7B96;
-    --teal-deep: #145569;
-    --teal-soft: #C9E2EA;
-    --accent: #E8B33A;
+    /* Brand palette pulled from Deng Details logo: navy + bright green + gold */
+    --teal: #3FA844;          /* primary accent: bright green from logo */
+    --teal-deep: #2C7C32;     /* hover/active: deeper green */
+    --teal-soft: #D6EFD7;     /* tint backgrounds */
+    --accent: #F0BE3F;        /* gold ribbon from logo tagline */
+    --navy: #1E5A8E;          /* logo navy blue */
     --line: #DCE4E7;
     --shadow: 0 6px 20px rgba(14, 42, 53, 0.08);
     --shadow-lg: 0 16px 50px rgba(14, 42, 53, 0.12);
@@ -60,14 +62,14 @@ em { font-style: italic; color: var(--teal); font-family: 'Caveat', cursive; fon
     font-family: 'Caveat', cursive; font-size: 28px; letter-spacing: -0.01em;
 }
 .logo-img {
-    height: 56px; width: auto; display: block;
+    height: 64px; width: auto; display: block;
     transition: transform 0.2s ease;
 }
 .logo-img:hover { transform: scale(1.05); }
-.footer-brand .logo-img { height: 80px; }
+.footer-brand .logo-img { height: 88px; }
 @media (max-width: 768px) {
-    .logo-img { height: 44px; }
-    .footer-brand .logo-img { height: 64px; }
+    .logo-img { height: 48px; }
+    .footer-brand .logo-img { height: 68px; }
 }
 
 .nav-center {
