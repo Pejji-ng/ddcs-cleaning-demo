@@ -62,14 +62,14 @@ em { font-style: italic; color: var(--teal); font-family: 'Caveat', cursive; fon
     font-family: 'Caveat', cursive; font-size: 28px; letter-spacing: -0.01em;
 }
 .logo-img {
-    height: 64px; width: auto; display: block;
+    height: 88px; width: auto; display: block;
     transition: transform 0.2s ease;
 }
 .logo-img:hover { transform: scale(1.05); }
-.footer-brand .logo-img { height: 88px; }
+.footer-brand .logo-img { height: 112px; }
 @media (max-width: 768px) {
-    .logo-img { height: 48px; }
-    .footer-brand .logo-img { height: 68px; }
+    .logo-img { height: 72px; }
+    .footer-brand .logo-img { height: 84px; }
 }
 
 .nav-center {
@@ -462,7 +462,7 @@ section { padding: 100px 0; position: relative; z-index: 2; }
 }
 
 @media (max-width: 768px) {
-    .nav { padding: 14px 22px; }
+    .nav { padding: 10px 22px; }
     .nav-center, .nav-cta { display: none; }
     .nav-toggle { display: flex; }
     .mob-menu.active { display: flex; }
