@@ -62,14 +62,14 @@ em { font-style: italic; color: var(--teal); font-family: 'Caveat', cursive; fon
     font-family: 'Caveat', cursive; font-size: 28px; letter-spacing: -0.01em;
 }
 .logo-img {
-    height: 128px; width: auto; display: block;
+    height: 160px; width: auto; display: block;
     transition: transform 0.2s ease;
 }
 .logo-img:hover { transform: scale(1.05); }
-.footer-brand .logo-img { height: 144px; }
+.footer-brand .logo-img { height: 168px; }
 @media (max-width: 768px) {
-    .logo-img { height: 110px; }
-    .footer-brand .logo-img { height: 120px; }
+    .logo-img { height: 140px; }
+    .footer-brand .logo-img { height: 140px; }
 }
 
 .nav-center {
@@ -248,7 +248,13 @@ section { padding: 100px 0; position: relative; z-index: 2; }
     border-color: var(--teal);
 }
 
-.service-icon { font-size: 2.4rem; margin-bottom: 18px; }
+.service-icon {
+    width: 56px; height: 56px; margin-bottom: 18px;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(63, 168, 68, 0.10); color: var(--teal);
+    border-radius: 14px;
+}
+.service-icon svg { width: 32px; height: 32px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .service-card h3 { font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; }
 .service-card p { color: var(--ink-soft); font-size: 0.96rem; }
 .service-tag {
